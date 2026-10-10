@@ -1,0 +1,401 @@
+{
+  "timeout": {
+    "color": {
+      "bg": {
+        "cream": {
+          "$value": "#F5EEE4",
+          "$type": "color",
+          "$description": "Grund aller Seiten"
+        },
+        "sand": {
+          "$value": "#E4D8CF",
+          "$type": "color",
+          "$description": "Abschnitte und Karten, im Wechsel mit Creme"
+        },
+        "taupe": {
+          "$value": "#CAB6A2",
+          "$type": "color",
+          "$description": "Kräftige Abschnitte, Icon-Kreise"
+        },
+        "espresso": {
+          "$value": "#383028",
+          "$type": "color",
+          "$description": "Dunkler Bereich (Footer)"
+        }
+      },
+      "text": {
+        "primary": {
+          "$value": "#383028",
+          "$type": "color",
+          "$description": "Fließtext und Überschriften"
+        },
+        "secondary": {
+          "$value": "#6C5946",
+          "$type": "color",
+          "$description": "Zweittext, Kapitälchen, Bildunterschriften"
+        },
+        "on-dark": {
+          "$value": "#F5EEE4",
+          "$type": "color",
+          "$description": "Text auf Espresso"
+        }
+      },
+      "accent": {
+        "gold": {
+          "$value": "#987848",
+          "$type": "color",
+          "$description": "Nur große Schrift (≥ 24 px) auf Creme, Linien, Icons"
+        },
+        "gold-deep": {
+          "$value": "#725A36",
+          "$type": "color",
+          "$description": "Links und Hover auf Creme und Sand"
+        },
+        "gold-light": {
+          "$value": "#C9A96E",
+          "$type": "color",
+          "$description": "Akzente und Links auf Espresso"
+        }
+      },
+      "line": {
+        "decor": {
+          "$value": "#CAB6A2",
+          "$type": "color",
+          "$description": "Dekorative Trennlinien"
+        },
+        "field": {
+          "$value": "#6C5946",
+          "$type": "color",
+          "$description": "Rahmen von Formularfeldern (≥ 3:1)"
+        }
+      },
+      "button": {
+        "primary": {
+          "bg": {
+            "$value": "#383028",
+            "$type": "color",
+            "$description": "Primär-Button"
+          },
+          "text": {
+            "$value": "#F5EEE4",
+            "$type": "color",
+            "$description": "Text Primär-Button"
+          },
+          "bg-hover": {
+            "$value": "#2C241C",
+            "$type": "color",
+            "$description": "Primär-Button Hover"
+          }
+        },
+        "secondary": {
+          "border": {
+            "$value": "#383028",
+            "$type": "color",
+            "$description": "Sekundär-Button Rahmen und Text"
+          },
+          "bg-hover": {
+            "$value": "#E4D8CF",
+            "$type": "color",
+            "$description": "Sekundär-Button Hover"
+          }
+        },
+        "disabled": {
+          "bg": {
+            "$value": "#E4D8CF",
+            "$type": "color",
+            "$description": "Inaktiver Button"
+          },
+          "text": {
+            "$value": "#6C5946",
+            "$type": "color",
+            "$description": "Text inaktiver Button"
+          }
+        }
+      }
+    },
+    "logo": {
+      "$description": "nur im Logo – nicht als Text- oder Flächenfarbe",
+      "gold-dark": {
+        "$value": "#705010",
+        "$type": "color",
+        "$description": "nur im Logo: Ring-Verlauf, dunkles Ende"
+      },
+      "gold-mid": {
+        "$value": "#C09729",
+        "$type": "color",
+        "$description": "nur im Logo: Ring-Verlauf, Mitte"
+      },
+      "gold-light": {
+        "$value": "#F0C010",
+        "$type": "color",
+        "$description": "nur im Logo: Ring-Verlauf, helles Ende"
+      },
+      "line": {
+        "$value": "#807F7F",
+        "$type": "color",
+        "$description": "nur im Logo: Linienzeichnung (J, D, Gesicht)"
+      },
+      "lettering": {
+        "$value": "#000000",
+        "$type": "color",
+        "$description": "nur im Logo: Schriftzug „Cosmetic“ im Original"
+      }
+    },
+    "fontFamilies": {
+      "heading": {
+        "$value": "Cormorant Garamond",
+        "$type": "fontFamilies",
+        "$description": "Überschriften H1–H3, Schnitte 500/600"
+      },
+      "body": {
+        "$value": "Montserrat",
+        "$type": "fontFamilies",
+        "$description": "Fließtext, Kapitälchen, Buttons, Wix-Widgets; Schnitte 400/500/600"
+      },
+      "script": {
+        "$value": "Alex Brush",
+        "$type": "fontFamilies",
+        "$description": "Akzent, höchstens eine Zeile je Seite, ab 32 px"
+      }
+    },
+    "fontWeights": {
+      "heading-500": {
+        "$value": "Medium",
+        "$type": "fontWeights"
+      },
+      "heading-600": {
+        "$value": "SemiBold",
+        "$type": "fontWeights"
+      },
+      "body-500": {
+        "$value": "Medium",
+        "$type": "fontWeights"
+      },
+      "body-400": {
+        "$value": "Regular",
+        "$type": "fontWeights"
+      },
+      "body-600": {
+        "$value": "SemiBold",
+        "$type": "fontWeights"
+      },
+      "script-400": {
+        "$value": "Regular",
+        "$type": "fontWeights"
+      }
+    },
+    "fontSizes": {
+      "h1": {
+        "$value": "56",
+        "$type": "fontSizes"
+      },
+      "h1-mobile": {
+        "$value": "40",
+        "$type": "fontSizes"
+      },
+      "h2": {
+        "$value": "40",
+        "$type": "fontSizes"
+      },
+      "h2-mobile": {
+        "$value": "30",
+        "$type": "fontSizes"
+      },
+      "h3": {
+        "$value": "26",
+        "$type": "fontSizes"
+      },
+      "h3-mobile": {
+        "$value": "22",
+        "$type": "fontSizes"
+      },
+      "overline": {
+        "$value": "13",
+        "$type": "fontSizes"
+      },
+      "body": {
+        "$value": "16",
+        "$type": "fontSizes"
+      },
+      "small": {
+        "$value": "14",
+        "$type": "fontSizes"
+      },
+      "button": {
+        "$value": "14",
+        "$type": "fontSizes"
+      },
+      "script": {
+        "$value": "44",
+        "$type": "fontSizes"
+      },
+      "script-mobile": {
+        "$value": "34",
+        "$type": "fontSizes"
+      }
+    },
+    "lineHeights": {
+      "h1": {
+        "$value": "110%",
+        "$type": "lineHeights"
+      },
+      "h2": {
+        "$value": "115%",
+        "$type": "lineHeights"
+      },
+      "h3": {
+        "$value": "120%",
+        "$type": "lineHeights"
+      },
+      "body": {
+        "$value": "170%",
+        "$type": "lineHeights"
+      },
+      "small": {
+        "$value": "160%",
+        "$type": "lineHeights"
+      }
+    },
+    "letterSpacing": {
+      "overline": {
+        "$value": "18%",
+        "$type": "letterSpacing"
+      },
+      "button": {
+        "$value": "12%",
+        "$type": "letterSpacing"
+      }
+    },
+    "textCase": {
+      "overline": {
+        "$value": "uppercase",
+        "$type": "textCase"
+      },
+      "button": {
+        "$value": "uppercase",
+        "$type": "textCase"
+      }
+    },
+    "typography": {
+      "h1": {
+        "$value": {
+          "fontFamily": "{fontFamilies.heading}",
+          "fontWeight": "{fontWeights.heading-500}",
+          "fontSize": "{fontSizes.h1}",
+          "lineHeight": "{lineHeights.h1}"
+        },
+        "$type": "typography"
+      },
+      "h1-mobile": {
+        "$value": {
+          "fontFamily": "{fontFamilies.heading}",
+          "fontWeight": "{fontWeights.heading-500}",
+          "fontSize": "{fontSizes.h1-mobile}",
+          "lineHeight": "{lineHeights.h1}"
+        },
+        "$type": "typography",
+        "$description": "Mobil (bis 900px Breite)"
+      },
+      "h2": {
+        "$value": {
+          "fontFamily": "{fontFamilies.heading}",
+          "fontWeight": "{fontWeights.heading-500}",
+          "fontSize": "{fontSizes.h2}",
+          "lineHeight": "{lineHeights.h2}"
+        },
+        "$type": "typography"
+      },
+      "h2-mobile": {
+        "$value": {
+          "fontFamily": "{fontFamilies.heading}",
+          "fontWeight": "{fontWeights.heading-500}",
+          "fontSize": "{fontSizes.h2-mobile}",
+          "lineHeight": "{lineHeights.h2}"
+        },
+        "$type": "typography",
+        "$description": "Mobil (bis 900px Breite)"
+      },
+      "h3": {
+        "$value": {
+          "fontFamily": "{fontFamilies.heading}",
+          "fontWeight": "{fontWeights.heading-600}",
+          "fontSize": "{fontSizes.h3}",
+          "lineHeight": "{lineHeights.h3}"
+        },
+        "$type": "typography"
+      },
+      "h3-mobile": {
+        "$value": {
+          "fontFamily": "{fontFamilies.heading}",
+          "fontWeight": "{fontWeights.heading-600}",
+          "fontSize": "{fontSizes.h3-mobile}",
+          "lineHeight": "{lineHeights.h3}"
+        },
+        "$type": "typography",
+        "$description": "Mobil (bis 900px Breite)"
+      },
+      "overline": {
+        "$value": {
+          "fontFamily": "{fontFamilies.body}",
+          "fontWeight": "{fontWeights.body-500}",
+          "fontSize": "{fontSizes.overline}",
+          "letterSpacing": "{letterSpacing.overline}",
+          "textCase": "{textCase.overline}"
+        },
+        "$type": "typography",
+        "$description": "Farbe: color.text.secondary"
+      },
+      "body": {
+        "$value": {
+          "fontFamily": "{fontFamilies.body}",
+          "fontWeight": "{fontWeights.body-400}",
+          "fontSize": "{fontSizes.body}",
+          "lineHeight": "{lineHeights.body}"
+        },
+        "$type": "typography"
+      },
+      "small": {
+        "$value": {
+          "fontFamily": "{fontFamilies.body}",
+          "fontWeight": "{fontWeights.body-400}",
+          "fontSize": "{fontSizes.small}",
+          "lineHeight": "{lineHeights.small}"
+        },
+        "$type": "typography"
+      },
+      "button": {
+        "$value": {
+          "fontFamily": "{fontFamilies.body}",
+          "fontWeight": "{fontWeights.body-600}",
+          "fontSize": "{fontSizes.button}",
+          "letterSpacing": "{letterSpacing.button}",
+          "textCase": "{textCase.button}"
+        },
+        "$type": "typography"
+      },
+      "script": {
+        "$value": {
+          "fontFamily": "{fontFamilies.script}",
+          "fontWeight": "{fontWeights.script-400}",
+          "fontSize": "{fontSizes.script}"
+        },
+        "$type": "typography"
+      },
+      "script-mobile": {
+        "$value": {
+          "fontFamily": "{fontFamilies.script}",
+          "fontWeight": "{fontWeights.script-400}",
+          "fontSize": "{fontSizes.script-mobile}"
+        },
+        "$type": "typography",
+        "$description": "Mobil (bis 900px Breite)"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "timeout"
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+/* Erzeugt aus assets/brand/tokens.json (target). Nicht von Hand ändern. */
+
+:root {
+  /* Farben */
+  --color-bg-cream: #F5EEE4; /* Grund aller Seiten */
+  --color-bg-sand: #E4D8CF; /* Abschnitte und Karten, im Wechsel mit Creme */
+  --color-bg-taupe: #CAB6A2; /* Kräftige Abschnitte, Icon-Kreise */
+  --color-bg-espresso: #383028; /* Dunkler Bereich (Footer) */
+  --color-text-primary: #383028; /* Fließtext und Überschriften */
+  --color-text-secondary: #6C5946; /* Zweittext, Kapitälchen, Bildunterschriften */
+  --color-text-on-dark: #F5EEE4; /* Text auf Espresso */
+  --color-accent-gold: #987848; /* Nur große Schrift (≥ 24 px) auf Creme, Linien, Icons */
+  --color-accent-gold-deep: #725A36; /* Links und Hover auf Creme und Sand */
+  --color-accent-gold-light: #C9A96E; /* Akzente und Links auf Espresso */
+  --color-line-decor: #CAB6A2; /* Dekorative Trennlinien */
+  --color-line-field: #6C5946; /* Rahmen von Formularfeldern (≥ 3:1) */
+  --color-button-primary-bg: #383028; /* Primär-Button */
+  --color-button-primary-text: #F5EEE4; /* Text Primär-Button */
+  --color-button-primary-bg-hover: #2C241C; /* Primär-Button Hover */
+  --color-button-secondary-border: #383028; /* Sekundär-Button Rahmen und Text */
+  --color-button-secondary-bg-hover: #E4D8CF; /* Sekundär-Button Hover */
+  --color-button-disabled-bg: #E4D8CF; /* Inaktiver Button */
+  --color-button-disabled-text: #6C5946; /* Text inaktiver Button */
+  /* Logo-Farben: nur im Logo, nicht als Text- oder Flächenfarbe */
+  --color-logo-gold-dark: #705010; /* Ring-Verlauf, dunkles Ende */
+  --color-logo-gold-mid: #C09729; /* Ring-Verlauf, Mitte */
+  --color-logo-gold-light: #F0C010; /* Ring-Verlauf, helles Ende */
+  --color-logo-line: #807F7F; /* Linienzeichnung (J, D, Gesicht) */
+  --color-logo-lettering: #000000; /* Schriftzug „Cosmetic“ im Original */
+
+  /* Schriften */
+  --font-heading: "Cormorant Garamond", serif;
+  --font-body: Montserrat, sans-serif;
+  --font-script: "Alex Brush", cursive;
+
+  /* Textstile */
+  --text-h1-font-family: var(--font-heading);
+  --text-h1-font-weight: 500;
+  --text-h1-font-size: 56px;
+  --text-h1-font-size-mobile: 40px;
+  --text-h1-line-height: 1.1;
+  --text-h2-font-family: var(--font-heading);
+  --text-h2-font-weight: 500;
+  --text-h2-font-size: 40px;
+  --text-h2-font-size-mobile: 30px;
+  --text-h2-line-height: 1.15;
+  --text-h3-font-family: var(--font-heading);
+  --text-h3-font-weight: 600;
+  --text-h3-font-size: 26px;
+  --text-h3-font-size-mobile: 22px;
+  --text-h3-line-height: 1.2;
+  --text-overline-font-family: var(--font-body);
+  --text-overline-font-weight: 500;
+  --text-overline-font-size: 13px;
+  --text-overline-letter-spacing: 0.18em;
+  --text-overline-text-transform: uppercase;
+  --text-overline-color: var(--color-text-secondary);
+  --text-body-font-family: var(--font-body);
+  --text-body-font-weight: 400;
+  --text-body-font-size: 16px;
+  --text-body-line-height: 1.7;
+  --text-small-font-family: var(--font-body);
+  --text-small-font-weight: 400;
+  --text-small-font-size: 14px;
+  --text-small-line-height: 1.6;
+  --text-button-font-family: var(--font-body);
+  --text-button-font-weight: 600;
+  --text-button-font-size: 14px;
+  --text-button-letter-spacing: 0.12em;
+  --text-button-text-transform: uppercase;
+  --text-script-font-family: var(--font-script);
+  --text-script-font-weight: 400;
+  --text-script-font-size: 44px;
+  --text-script-font-size-mobile: 34px;
+}
+
+.text-h1 {
+  font-family: var(--text-h1-font-family);
+  font-weight: var(--text-h1-font-weight);
+  font-size: var(--text-h1-font-size);
+  line-height: var(--text-h1-line-height);
+}
+
+.text-h2 {
+  font-family: var(--text-h2-font-family);
+  font-weight: var(--text-h2-font-weight);
+  font-size: var(--text-h2-font-size);
+  line-height: var(--text-h2-line-height);
+}
+
+.text-h3 {
+  font-family: var(--text-h3-font-family);
+  font-weight: var(--text-h3-font-weight);
+  font-size: var(--text-h3-font-size);
+  line-height: var(--text-h3-line-height);
+}
+
+.text-overline {
+  font-family: var(--text-overline-font-family);
+  font-weight: var(--text-overline-font-weight);
+  font-size: var(--text-overline-font-size);
+  letter-spacing: var(--text-overline-letter-spacing);
+  text-transform: var(--text-overline-text-transform);
+  color: var(--text-overline-color);
+}
+
+.text-body {
+  font-family: var(--text-body-font-family);
+  font-weight: var(--text-body-font-weight);
+  font-size: var(--text-body-font-size);
+  line-height: var(--text-body-line-height);
+}
+
+.text-small {
+  font-family: var(--text-small-font-family);
+  font-weight: var(--text-small-font-weight);
+  font-size: var(--text-small-font-size);
+  line-height: var(--text-small-line-height);
+}
+
+.text-button {
+  font-family: var(--text-button-font-family);
+  font-weight: var(--text-button-font-weight);
+  font-size: var(--text-button-font-size);
+  letter-spacing: var(--text-button-letter-spacing);
+  text-transform: var(--text-button-text-transform);
+}
+
+.text-script {
+  font-family: var(--text-script-font-family);
+  font-weight: var(--text-script-font-weight);
+  font-size: var(--text-script-font-size);
+}
+
+@media (max-width: 900px) {
+  .text-h1 {
+    font-size: var(--text-h1-font-size-mobile);
+  }
+
+  .text-h2 {
+    font-size: var(--text-h2-font-size-mobile);
+  }
+
+  .text-h3 {
+    font-size: var(--text-h3-font-size-mobile);
+  }
+
+  .text-script {
+    font-size: var(--text-script-font-size-mobile);
+  }
+}
