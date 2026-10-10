@@ -1,4 +1,4 @@
-/* Prototyp #34 – Redesign nach ADR-0013/0014, Wortmarke ADR-0018.
+/* Prototyp #34 – Redesign nach ADR-0013/0014, Logo nach ADR-0023 (#36).
    Farben 1:1 aus assets/brand/tokens.json (target), keine Werte ohne Token.
    Schriften selbst gehostet (SIL OFL, Lizenzen in fonts/). Keine externen Anfragen. */
 
@@ -97,8 +97,9 @@ h3 { font-size: 26px; line-height: 1.2; font-weight: 600; }
 .site-header { background: var(--bg-cream); border-bottom: 1px solid var(--line-decor); position: relative; }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 92px; }
 .brand { display: block; flex: 0 0 auto; line-height: 0; }
-.brand img { width: 260px; height: auto; }
-.brand .brand-mono { display: none; width: 52px; }
+/* Logo: Lockup quer (JD-Logo + „TIMEOUT · Annweiler“, ADR-0023), mobil Bildzeichen + „TIMEOUT“ */
+.brand img { width: 270px; height: auto; }
+.brand .brand-mono { display: none; width: auto; height: 44px; }
 .menu-button { display: none; }
 .site-nav ul { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 20px; list-style: none; margin: 0; padding: 0; }
 .site-nav a {
@@ -190,7 +191,8 @@ figcaption { font-size: 14px; line-height: 1.6; color: var(--text-secondary); ma
 .product img { width: 100%; aspect-ratio: 2 / 3; object-fit: contain; }
 .product figcaption { color: var(--text-primary); font: 500 12px/1.4 var(--font-body); letter-spacing: .1em; text-transform: uppercase; margin-top: 12px; }
 .products--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 640px; }
-.brand-ph { max-width: 260px; margin: 0 auto 32px; }
+.brand-logo { max-width: 200px; margin: 0 auto 32px; padding: 20px; background: var(--bg-cream); }
+.brand-logo img { width: 100%; height: auto; }
 
 /* Sprungmarken */
 .jump { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; list-style: none; padding: 0; margin: 28px 0 0; }
@@ -236,7 +238,7 @@ figcaption { font-size: 14px; line-height: 1.6; color: var(--text-secondary); ma
 .site-footer h2 { color: var(--gold-light); font-size: 24px; font-weight: 600; }
 .site-footer a { color: var(--gold-light); }
 .site-footer a:hover { color: var(--text-on-dark); }
-.footer-logo { width: 240px; margin-bottom: 40px; }
+.footer-logo { width: 280px; height: auto; margin-bottom: 40px; }
 .footer-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px; }
 .footer-hours { border-collapse: collapse; }
 .footer-hours th, .footer-hours td { text-align: left; padding: 3px 16px 3px 0; font-weight: 400; vertical-align: top; }
